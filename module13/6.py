@@ -37,7 +37,7 @@ print(per.name)
 
 per.getSalary() #this can read salary. cause getSalary() in inside the class
 
-# per.__calculateSalary() #this will give error. i cant call private method outside the class. but i can call it inside the class
+# per.__calculateTax() #this will give error. i cant call private method outside the class. but i can call it inside the class
 
 
 

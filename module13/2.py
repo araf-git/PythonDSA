@@ -8,6 +8,7 @@
 # now a student have an id:10, name: 'asdf', age:15, interest: football. this student object is a instance of the class blueprint
 # another student have an id:13, name: 'zxcv', age:16, interest: cricket. this student object is another instance of the class blueprint
 
+# instance = উদাহরণ (google)
 
 # so
 # class = blueprint
@@ -20,7 +21,7 @@
 # class Person :
 #     pass
 
-# creating object with Persong class
+# creating object with Person class
 # obj = Person()
 
 # print(type(obj))

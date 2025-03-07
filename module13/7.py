@@ -23,7 +23,7 @@ class Person :
     self.__car = car
 
 
-per = Person("Vishwa", 99)
+per = Person("Vishwa", "BMW")
 
 print(per.getName())
 per.setName("Vishwa Mohan Singh")

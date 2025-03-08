@@ -10,6 +10,7 @@ class Calculator :
 
   def add(self,a,b,c):
     return a+b+c
+  #if two method name are same, then the last defined method will be treated as the only method present in that class
 
 cal = Calculator()
 

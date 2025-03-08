@@ -17,6 +17,7 @@
 #   #this findAge is instance/object method. 
 #   #ei method sudhu matro object diye call kora jabe
 #   #aage object banate hobe. erpor oi object use kore object method call korte parbo
+#   #self pass kora mandatory. pass kortei hobe.
 #   def findAge(self):
 #     return self.age
 

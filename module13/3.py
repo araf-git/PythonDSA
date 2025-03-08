@@ -57,9 +57,10 @@
 
 
 
-
+# passing variable number of arguments with default parameters
 # class Person :
 #   #default parameters
+#   #here age and hobby are optional parameters
 #   def __init__(self, name, age=99, hobby="Cricket"):
 #     self.name = name
 #     self.age = age

@@ -24,14 +24,24 @@
 #     print(self.name + " animal is eating")
 
 
+# here
+# Dog isA Animal = true = inheritence can be applied
+# Animal = Parent
+# Dog = Child
+# Dog will automatically inherit all the public properties and public methods of Animal class
+
 # class Dog(Animal):
-#   def __init__(self,name, type):
+#   def __init__(self, name, type):
+
+#     #if i want to create a Dog object, then i also have to create an object of Animal class. cause Dog isA Animal. so i need to call the initializer of Animal class
 #     #Call the constructor/initializer of Animal class
+
 #     Animal.__init__(self, name)
 #     self.type = type
 
 #   def getTheNameOfDog(self):
-#     print(self.name)
+#     print(self.name) 
+#     #here name is a Animal class property. But i am accessing name using Dog class. It is possible because of inheritance
 
 
 # dog = Dog("Moti", "Dobberman")
@@ -45,8 +55,8 @@
 #super keyword
 
 #Access the Parent Class properties/methods from Child Class
-# self = child properties
-# super = parent properties
+# self = child properties/methods
+# super = parent properties/methods
 
 # class Parent :
 #   property = 90
@@ -91,7 +101,9 @@
 #   def __init__(self,name, type):
 #     #Call the constructor/initializor of Animal class
 #     #Animal.__init__(self, name)
-#     super().__init__(name) #call the parent constructor or initializer
+#     super().__init__(name) 
+#     #call the parent constructor or initializer using super(). 
+#     #if i use super(), then the only difference is that i dont need to pass self
 #     self.type = type
 
 #   def getTheNameOfDog(self):

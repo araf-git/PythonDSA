@@ -31,6 +31,7 @@
 
 
 class Person :
+  # class level variables
   name = "Vishwa"
   age = 99
 

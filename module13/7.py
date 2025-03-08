@@ -1,6 +1,6 @@
 #Encapsulation
-# is a way to bind the data(state) of the object with methods
-# easy definition - hide or make the state(data) private. so if any other object directly want to change the state of my object, they should not be able to do it
+# is a way to bind the property/data(state) of the object with methods
+# easy definition - hide or make the property/data(state) private. so if any other object directly want to change the property/data(state) of my object, they should not be able to do it
 
 # encapsulation
 # 1. all the fields/properties should be private
@@ -8,6 +8,7 @@
 
 class Person :
   def __init__(self, name, car):
+    #here name and car are two private property of a specific object
     self.__name = name
     self.__car = car
 

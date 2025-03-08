@@ -3,6 +3,7 @@
 
 
 '''
+  access modifier 2 type er hoy
   public and private
 '''
 
@@ -10,7 +11,7 @@
 
 
 class Person :
-  def __init__(self, name, age , salary):
+  def __init__(self, name, age, salary):
     self.name = name #public
     self.age = age #public
     self.__salary = salary #private
@@ -35,7 +36,7 @@ print(per.name)
 # print(per.__salary) #this will give error
 
 
-per.getSalary() #this can read salary. cause getSalary() in inside the class
+per.getSalary() #this can read salary. cause getSalary() is defined inside the class
 
 # per.__calculateTax() #this will give error. i cant call private method outside the class. but i can call it inside the class
 

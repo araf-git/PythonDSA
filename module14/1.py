@@ -3,7 +3,7 @@
 # hide unnecessary details
 
 # it makes software/web easy for the customers
-# prevent/avoid internal information to be leaked
+# protect/avoid internal information to be leaked
 
 
 # in python or any oop oriented programming language
@@ -45,7 +45,7 @@ class Animal(ABC) :
 # we cant create object of abstract class
 # this will give error. TypeError: Can't instantiate abstract class Animal without an implementation for abstract method 'eat'
 # You cannot instantiate an abstract class that has unimplemented abstract methods.
-#  i have to implement abstract method in concrete child class. using method overriding
+# i have to implement abstract method in concrete child class. using method overriding
 
 # concrete implementation
 class Dog(Animal):

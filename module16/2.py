@@ -5,35 +5,9 @@
 
 
 
-# O(1) (Constant Space)
-# Memory usage does not grow with input size.
 
-# def constant_space(arr):
-#     max_value = arr[0]  # Uses only one variable
-#     for num in arr:
-#         if num > max_value:
-#             max_value = num
-#     return max_value
-# ✅ Uses only a few variables → O(1) space
-
-
-
-# O(n) (Linear Space)
-# Stores a new array proportional to input size.
-
-# def linear_space(arr):
-#     new_arr = []  # Extra space grows with input
-#     for num in arr:
-#         new_arr.append(num * 2)
-#     return new_arr
-# ✅ Stores n elements → O(n) space
-
-
-
-
-
-
-# Recursion
+# Recursion 
+# recursion is important for Graph, Tree, Dynamic Programming, Divide and Conquer
 # i defined a function, and the logic inside the function is calling the function itself. this is called as recursion
 # recursive infinite loop = virus
 
@@ -49,7 +23,8 @@
 # 3. Recursive call
 
 
-# def printNum(arr, sI):
+# sI = starting index
+# def printNum(arr, sI): 
 #     #Base condition
 #     if(sI >= len(arr)):
 #         return
@@ -63,26 +38,24 @@
 # printNum([2,3,5], 0)
 
 
-#  recursion in DSA is like a loop because it repeats tasks, but it does so by calling itself instead of using for or while
-
+# recursion in DSA is like a loop because it repeats tasks, but it does so by calling itself instead of using for or while
 
 
 # q. use recursion and print array in reverse order
 def printRev(arr, sI):
 
-    #Base condition
-    if(sI >= len(arr)):
+    # Base condition
+    if sI >= len(arr):
         return
 
-    #Recursive call
-    printRev(arr, sI+1)
+    # Recursive call
+    printRev(arr, sI + 1)
 
-    #Logic
+    # Logic
     print(arr[sI])
-        
 
-printRev([2,3,5], 0)
 
+printRev([2, 3, 5], 0)
 
 
 # when i use loop (for/while)
@@ -92,12 +65,10 @@ printRev([2,3,5], 0)
 
 # when i use recursion
 # step1 -> step2 -> step3 -> base condition
-# step1 <- step2 <- step3 <- base condition  
+# step1 <- step2 <- step3 <- base condition
 # after reaching base condition, i come back each and every step
 # i can move in both direction
 # recursion is bi-directional. it stops where it starts
-
-
 
 
 # recursion
@@ -116,7 +87,6 @@ printRev([2,3,5], 0)
 # in this example, when i am coming back, i am applying the logic
 
 
-
 # type3
 # 1. base condition
 # 2. logic1
@@ -124,4 +94,3 @@ printRev([2,3,5], 0)
 # 4. logic2
 # in this example, when i am going down, i am applying the logic1
 # and, when i am coming back, i am applying the logic2
-
